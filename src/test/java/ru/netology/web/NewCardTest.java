@@ -18,7 +18,7 @@ public class NewCardTest {
 
     @Test
     void completedForm() {
-        $("[data-test-id=name] input").setValue("Иван");
+        $("[data-test-id=name] input").setValue("Иван Иванов");
         $("[data-test-id=phone] input").setValue("+79891234567");
         $("[data-test-id=agreement]").click();
         $("button[type=button]").click();
