@@ -13,7 +13,7 @@ public class NewCardTest {
 
     @BeforeEach
     void open() {
-        Selenide.open("http://localhost:9999/");
+        Selenide.open("http://localhost:9999");
     }
 
     @Test
